@@ -19,9 +19,13 @@ body{
     stroke-width: 2;
 }
 
+.hoverable-link:hover .node {
+  fill: wheat; 
+}
+
 .logo-holder {
     font-family: Arial, sans-serif;
-    font-size: 30px; /* Adjust the size as needed */
+    font-size: 30px; 
     font-weight: bold;
     color: #15914d; 
     margin-right: auto; 
