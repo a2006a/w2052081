@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(207, 255, 212);
+  }
+  
+  .container {
+    display: block;
+  }
+  
+  .introduction {
+    display: flex;
+    flex-direction: column; /* Set flex-direction to column to stack child elements vertically */
+    align-items: center; /* Center items horizontally within the .introduction div */
+    justify-content: center; /* Center items vertically within the .introduction div */
+    background-image: url("Assests/Images/1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .intro {
+    margin-top: 60px;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .intro-description{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 50px;
+  }
+  
+  .intro-description p{
+    color: white;
+  }
+  
+  .categories{
+    background-color: #161616;
+  }
+  
+  .categories h2{
+    padding-top: 10px;
+    text-align: center;
+  }
+  
+  .cards{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cards h4{
+    color: white;
+  }
+  
+  .card{
+    display: inline-block;
+    background-color: red;
+    margin: 90px 70px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  .card:hover{
+    opacity: 0.5;
+    transform: translateY(-10px);
+  }
+  
+  #card1{
+    background-image: url(Assests/Images/Agroecology.jpg);
+    padding: 200px 100px;
+  }
+  
+  #card2{
+    background-image: url(Assests/Images/OrganicFarming.jpg);
+    padding: 200px 115px;
+  }
+  
+  #card3{
+    background-image: url(Assests/Images/Livestock.jpg);
+    padding: 200px 100px;
+  }

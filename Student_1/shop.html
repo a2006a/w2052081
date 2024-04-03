@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <link rel="stylesheet" href="Shop1.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    
+    <div class="main">
+        <div class="navbar">
+            <div class="nav-wrapper">
+                <div class="logo-holder">
+                    <span class="logo-text">GreenHarmony</span>
+                </div>
+                <div class="nav-links-menu">
+                    <a href="../Student_2/home.html" class="nav-items inline-blocks">
+                        <h5 class="navitems">Home</h5>
+                    </a>
+                    <a href="../Student 4/Gallery.html" class="nav-items inline-blocks">
+                        <h5 class="navitems">Gallery</h5>
+                    </a>
+                    <a href="team.html" class="nav-items inline-blocks">
+                        <h5 class="navitems">About us</h5>
+                    </a>
+                    <a href="../Student 4/sitemap.html" class="nav-items inline-blocks">
+                        <h5 class="navitems">Site map</h5>
+                    </a>
+                    <a href="../Student_2/feedback.html" class="nav-items inline-blocks">
+                        <h5 class="navitems">Feedback form</h5>
+                    </a>
+                </div>
+                <div class="button-holder">
+                    <a href="../Student 1/shop.html" class="button nav shop">SHOP</a>
+                    <a href="profile.html" class="button nav profile ">Profile</a>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br><br>
+        
+    <h1 class="Title">Online Shop</h1>
+    <h3 class="head">WE PLANT 1 TREE TO EVERY PRODUCT SOLD </h3>
+    <div class="Shop">
+        <div class="Product">
+            <div class="product" data-name="Ceramic Planter " data-price="700">
+                <img src="Images/Product1.jpeg" alt="Pot 1" class="Image">
+                <h4 id="Produ">Ceramic Planter</h4>
+                <p id="info">8-inch size</p>
+                <h4 id="Price">Price - Rs 700/=</h4>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label>
+                    <select id="quantity" class="quantity-select" data-price="700">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br>
+                </div>
+               <p> </p>
+                <button onclick="addtoCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Round Flower Pots " data-price="3000">
+                <img src="Images/Product2.jpg" alt="Pot 2" class="Image">
+                <h4 id="Produ">Round Flower Pots</h4>
+                <p id="info">Pack of 5 | Multicolor | Suitable for indoor and outdoor | Ceramic</p>
+                <h4 id="Price">Price - Rs 3000/=</h4>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label>
+                    <select id="quantity" class="quantity-select" data-price="3000">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br>
+                </div>
+               <p> </p>
+                <button onclick="addtoCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Clay Pot " data-price="1000">
+                <img src="Images/Product5.jpeg" alt="Pot 3" class="Image">
+                <h4 id="Produ">Clay Pot </h4>
+                <p id="info">Pack of 2 | Made out of clay</p>
+                <h4 id="Price">Price - Rs 1000/=</h4>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label>
+                    <select id="quantity" class="quantity-select" data-price="1000">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br>
+                </div>
+               <p> </p>
+                <button onclick="addtoCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Cloth bag " data-price="900">
+                <img src="Images/clothbag.jpeg" alt="Cloth bag" class="Image">
+                <h4 id="Produ">Cloth bag</h4>
+                <p id="info">Carry your essentials in style</p>
+                <h4 id="Price">Price - Rs 900/=</h4>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label>
+                    <select id="quantity" class="quantity-select" data-price="900">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br>
+                </div>
+               <p> </p>
+                <button onclick="addtoCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Vegetable Seed Packets " data-price="350">
+                <img src="Images/Seeds1.jpg" alt="Seed" class="Image">
+                <h4 id="Produ">Vegetable Seed Packets </h4>
+                <p id="info">3 Packets | Includes Pepper | Garden Beans | Spinach</p>
+                <h4 id="Price">Price - Rs 350/=</h4>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label>
+                    <select id="quantity" class="quantity-select" data-price="350">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br>
+                </div>
+               <p> </p>
+                <button onclick="addtoCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Cloth bag " data-price="850">
+                <img src="Images/clothbag2.jpeg" alt="Cloth bag" class="Image">
+                <h4 id="Produ">Cloth Bag  </h4>
+                <p id="info">Designed | Customizable </p>
+                <h4 id="Price">Price - Rs 850/=</h4>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label>
+                    <select id="quantity" class="quantity-select" data-price="850">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br>
+                </div>
+               <p> </p>
+                <button onclick="addtoCart(this)">Add to Cart</button>
+            </div>
+            
+
+            <div class="product" data-name="Carrot Seeds " data-price="100">
+                <img src="Images/seeds2.jpg" alt="Seed" class="Image">
+                <h4 id="Produ">Carrot Seeds </h4>
+                <p id="info">Carrot Seeds | 1 Pkt </p>
+                <h4 id="Price">Price - Rs 100/=</h4>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label>
+                    <select id="quantity" class="quantity-select" data-price="100">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br>
+                </div>
+               <p> </p>
+                <button onclick="addtoCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Tomato Seeds " data-price="100">
+                <img src="Images/seeds3.jpg" alt="Seed" class="Image">
+                <h4 id="Produ">Tomato Seeds </h4>
+                <p id="info">Tomato Seeds | 1Pkt</p>
+                <h4 id="Price">Price - Rs 100/=</h4>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label>
+                    <select id="quantity" class="quantity-select" data-price="100">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br>
+                </div>
+               <p> </p>
+                <button onclick="addtoCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Binoculars " data-price="1500">
+                <img src="Images/binoculars.jpeg" alt="Binoculars" class="Image">
+                <h4 id="Produ">Binoculars </h4>
+                <p id="info">Black| Bird Watching | Provides a bright and clear image</p>
+                <h4 id="Price">Price - Rs 1500/=</h4>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label>
+                    <select id="quantity" class="quantity-select" data-price="1500">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br>
+                </div>
+               <p> </p>
+                <button onclick="addtoCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Vegetable Seed Packets " data-price="3000">
+                <img src="Images/Seeds6.jpg" alt="Seed" class="Image">
+                <h4 id="Produ">Vegetable Seed Packets </h4>
+                <p id="info">Pack of 13 | Spinach | Tomato | Cucumber | Beans | Sweet Corn | Peas | Carrots | Snap Peas | Carrot | Lettuce | Kale | Mesclub Mixture </p>
+                <h4 id="Price">Price - Rs 3000/=</h4>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label>
+                    <select id="quantity" class="quantity-select" data-price="3000">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br>
+                </div>
+               <p> </p>
+                <button onclick="addtoCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="T-Shirts " data-price="2000">
+                <img src="Images/Clothing3.jpeg" alt="T-Shirts" class="Image">
+                <h4 id="Produ">T-Shirts</h4>
+                <p id="info">Everyday Tee | crew neck | Slim Fit </p>
+                <h4 id="Price">Price - Rs 2000/=</h4>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label>
+                    <select id="quantity" class="quantity-select" data-price="2000">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br>
+                </div>
+               <p> </p>
+               <div class="Quantity">
+                <label for="size">Size:</label>
+                <select id="size" class="size-select" data-price="2000">
+                    <option value="1">S</option>
+                    <option value="2">M</option>
+                    <option value="3">L</option>
+                    <option value="4">XL</option>
+                    <option value="5">2XL</option>
+                </select>
+                <br>
+            </div>
+           <p> </p>
+                <button onclick="addtoCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Pruning Shear " data-price="890">
+                <img src="Images/tools1.jpeg" alt=" Pruning Shear" class="Image">
+                <h4 id="Produ">Pruning Shear </h4>
+                <p id="info">8 inch Garden Scissors | Garden Shears | Tree Trimmers | Clipper Tools</p>
+                <h4 id="Price">Price - Rs 890/=</h4>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label>
+                    <select id="quantity" class="quantity-select" data-price="890">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br>
+                </div>
+               <p> </p>
+                <button onclick="addtoCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Santilizer Spray Bottle " data-price="849">
+                <img src="Images/Tools2.jpeg" alt="Spray Bottle" class="Image">
+                <h4 id="Produ">Santilizer Spray Bottle</h4>
+                <p id="info">2 Liters | Pressure Bottle Water Fertilizer</p>
+                <h4 id="Price">Price - Rs 849/=</h4>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label>
+                    <select id="quantity" class="quantity-select" data-price="849">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br>
+                </div>
+               <p> </p>
+                <button onclick="addtoCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Gardening Tools Kit " data-price="1000">
+                <img src="Images/tools3.jpeg" alt="Gardening tools" class="Image">
+                <h4 id="Produ">Gardening Tools Kit </h4>
+                <p id="info">Hand Cultivator | Small Trowel | Garden Fork | Set of 3 </p>
+                <h4 id="Price">Price - Rs 1000/=</h4>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label>
+                    <select id="quantity" class="quantity-select" data-price="1000">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br>
+                </div>
+               <p> </p>
+                <button onclick="addtoCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Garden Gloves " data-price="350">
+                <img src="Images/tools4.jpeg" alt="Gloves" class="Image">
+                <h4 id="Produ">Garden Gloves </h4>
+                <p id="info">Rubber Coated Garden Hand Gloves | Free Size</p>
+                <h4 id="Price">Price - Rs 350/=</h4>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label>
+                    <select id="quantity" class="quantity-select" data-price="350">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br>
+                </div>
+               <p> </p>
+                <button onclick="addtoCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="T-Shirts " data-price="2300">
+                <img src="Images/Clothing 2.jpeg" alt="T-Shirts" class="Image">
+                <h4 id="Produ">T-Shirts</h4>
+                <p id="info">Everyday Tee | crew neck | Slim Fit </p>
+                <h4 id="Price">Price - Rs 2300/=</h4>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label>
+                    <select id="quantity" class="quantity-select" data-price="2300">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br>
+                </div>
+               <p> </p>
+               <div class="Quantity">
+                <label for="size">Size:</label>
+                <select id="size" class="size-select" data-price="2300">
+                    <option value="1">S</option>
+                    <option value="2">M</option>
+                    <option value="3">L</option>
+                    <option value="4">XL</option>
+                    <option value="5">2XL</option>
+                </select>
+                <br>
+            </div>
+           <p> </p>
+                <button onclick="addtoCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Essential Oil" data-price="5500">
+                <img src="Images/Oils.jpeg" alt="Essential Oil" class="Image">
+                <h4 id="Produ">Essential Oil </h4>
+                <p id="info">6 Pack | 10ml per bottle |Eucalyptus | Lavender | Lemon Grass | Orange | Peppermint | Tea Tree |Pure oil kit </p>
+                <h4 id="Price">Price - Rs 5500/=</h4>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label>
+                    <select id="quantity" class="quantity-select" data-price="5500">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br>
+                </div>
+               <p> </p>
+                <button onclick="addtoCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Gardening Books " data-price="10000">
+                <img src="Images/Book.jpg" alt="Gardening Books " class="Image">
+                <h4 id="Produ">Gardening Books  </h4>
+                <p id="info">4 books| Gardening Books </p>
+                <h4 id="Price">Price - Rs 10000/=</h4>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label>
+                    <select id="quantity" class="quantity-select" data-price="10000">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br>
+                </div>
+               <p> </p>
+                <button onclick="addtoCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="T-Shirts " data-price="3000">
+                <img src="Images/Clothin1.jpeg" alt=" T-Shirts" class="Image">
+                <h4 id="Produ">T-Shirts </h4>
+                <p id="info">High Quality | Everyday wear| boxy fit </p>
+                <h4 id="Price">Price - Rs 3000/=</h4>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label>
+                    <select id="quantity" class="quantity-select" data-price="3000">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br>
+                </div>
+               <p> </p>
+               <div class="Quantity">
+                <label for="size">Size:</label>
+                <select id="size" class="size-select" data-price="3000">
+                    <option value="1">S</option>
+                    <option value="2">M</option>
+                    <option value="3">L</option>
+                    <option value="4">XL</option>
+                    <option value="5">2XL</option>
+                </select>
+                <br>
+            </div>
+           <p> </p>
+                <button onclick="addtoCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="product" data-name="Hicking Backpack" data-price="25000">
+                <img src="Images/Backpack.jpg" alt="Hicking Backpack" class="Image">
+                <h4 id="Produ">Hicking Backpack </h4>
+                <p id="info">60L backpack | Suitable for camping | plenty of pockets to hold your essentials | metal back support for stability </p>
+                <h4 id="Price">Price - Rs 25000/=</h4>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label>
+                    <select id="quantity" class="quantity-select" data-price="25000>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br>
+                </div>
+               <p> </p>
+                <button onclick="addtoCart(this)">Add to Cart</button>
+            </div>
+            
+        </div>
+
+        <div id="Cart" class="Cart hidden ">
+            <h2>Cart</h2>
+            <div id="cart-items"></div>
+            <p>Total: Rs.<span id="cart-total">0</span></p>
+            <button onclick="proceedToCheeckout" id="checkoutButton">Checkout</button>
+        </div>
+
+    </div>
+
+    <div id="checkoutForm" style="display: none;">
+        <h2 class="check">Almost There !!!!</h2>
+        <p>Fill the following details to complete the purchase</p>
+        <div class="PaymentDetails">
+            <form id="Payment-details">
+                <h3>Payment Details</h3>
+                <label for="card-number">Card Number<span id="req"> * </span></label>
+                <input type="text" id="card-number" name="card-number" required>
+    
+                <label for="card-name">Cardholder Name<span id="req"> * </span></label>
+                <input type="text" id="card=name" name="card-name" required>
+    
+                <label for="expiry-date">Expiry Date<span id="req"> * </span></label>
+                <input type="text" id="expiry-date" class="expiry-date" value="MM/YY"  required>
+    
+                <label for="CVV">CVV<span id="req"> * </span></label>
+                <input type="text" id="CVV" name="CVV" required>   
+                
+                <button id="Save">Save Changes</button>
+            </form>
+
+        </div>
+        <div class="Address">
+            <form id="Address">
+                <h3>Billing Address</h3>
+                <label for="line1">Address Line 1<span id="req"> * </span></label>
+                <input type="text" id="line1" name="line1" required>
+
+                <label for="line2">Address Line 2</label>
+                <input type="text" id="line2" name="line2">
+
+                <label for="line3">Address Line 3</label>
+                <input type="text" id="line3" name="line3">
+
+                <label for="town">Town/City <span id="req"> * </span></label>
+                <input type="text" id="town" name="town" required>
+                <br><br>
+
+                <label for="state">State/County</label>
+                <input type="text" id="state" name="state">
+
+                <label for="code">Postcode/Zip code<span id="req"> * </span></label>
+                <input type="text" id="code" name="code">
+
+                <label for="country">Country<span id="req"> * </span></label>
+                <select name="country" id="country">
+                    <option value="1">Sri Lanka</option>
+                    <option value="2">USA</option>
+                    <option value="3">India</option>
+                    <option value="4">Pakistan</option>
+                    <option value="5">Australia</option>
+                    <option value="6">Nepal</option>
+                </select>
+
+                <button id="Save">Save Changes</button>
+                <br><br>
+            </form>
+        </div>
+
+        <div class="Contact">
+            <form id="Contact">
+                <h3>Contact Information</h3>
+                <label for="Fname">First Name<span id="req"> * </span></label>
+                <input type="text" id="Fname" name="Fname" required>
+
+                <label for="Lname">Surname<span id="req"> * </span></label>
+                <input type="text" id="Lname" name="Lname" required>
+
+                <label for="phone">Phone Number<span id="req"> * </span></label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="Email">Email Address</label></label><br>
+                <input type="text" id="Email" name="Email">
+
+                <button id="Save">Save Changes</button>
+                <button type="submit">Submit</button>
+            </form>
+
+        </div>
+    </div>
+        
+
+
+
+    <script>
+        const checkoutButton = document.getElementById('checkoutButton');
+        const checkoutForm = document.getElementById('checkoutForm');
+
+        checkoutButton.addEventListener('click', function() {
+            checkoutForm.style.display = 'block';
+            // Optionally, you can scroll to the form
+            checkoutForm.scrollIntoView({ behavior: 'smooth' });
+        });
+
+        const PaymentDetails = document.getElementById('PaymentDetails');
+        PaymentDetails.addEventListener('submit', function(event) {
+            event.preventDefault();
+            const formData = new FormData(PaymentDetails);
+            for (let pair of formData.entries()) {
+                console.log(pair[0] + ': ' + pair[1]);
+            }
+        });
+    </script>
+    <script src="script.js"></script>    
+
+    <footer>
+        <hr>
+        <div class="footer-divider-two"></div>
+        <div class="footer-bottom">
+            <div class="footer-copyright">© 2024 GreenHarmany. All rights reserved</div>
+            <div class="footer-legal-block">
+                <a href="editor.html" class="footer-legal-link">Editor Page</a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

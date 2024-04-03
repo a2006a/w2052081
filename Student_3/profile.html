@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="externalCSStemplete.css">
+    <link rel="stylesheet" href="navigationBar.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-wrapper">
+            <div class="logo-holder">
+                <span class="logo-text">GreenHarmony</span>
+            </div>
+            <div class="nav-links-menu">
+                <a href="../Student_2/home.html" class="nav-items inline-blocks">
+                    <h5 class="navitems">Home</h5>
+                </a>
+                <a href="../Student 4/Gallery.html" class="nav-items inline-blocks">
+                    <h5 class="navitems">Gallery</h5>
+                </a>
+                <a href="team.html" class="nav-items inline-blocks">
+                    <h5 class="navitems">About us</h5>
+                </a>
+                <a href="../Student 4/sitemap.html" class="nav-items inline-blocks">
+                    <h5 class="navitems">Site map</h5>
+                </a>
+                <a href="../Student_2/feedback.html" class="nav-items inline-blocks">
+                    <h5 class="navitems">Feedback form</h5>
+                </a>
+            </div>
+            <div class="button-holder">
+                <a href="../Student 1/shop.html" class="button nav shop">SHOP</a>
+                <a href="profile.html" class="button nav profile ">Profile</a>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <h1>Your Profile</h1>
+    <div id="container">
+        <button id="start-btn">Start</button>
+        <h2 id="description"></h2>
+        <div id="prompt-container">
+            <input type="text" id="prompt-input" placeholder="Enter your response">
+            <button id="next-btn">Next</button>
+            <button id="skip-btn">Skip</button>
+        </div>
+        <div id="output-container"></div>
+        <div id="progress-bar-container">
+            <div id="progress-bar"></div>
+            <span id="progress-text"></span>
+        </div>
+        <button id="edit-btn" onclick="editQuestion('${question.name}')">Edit</button>
+    </div>
+    <script src="profile.js"></script>
+    <br><br><br><br><br>
+    <footer>
+        <hr>
+        <div class="footer-divider-two"></div>
+        <div class="footer-bottom">
+            <div class="footer-copyright">© 2024 GreenHarmany. All rights reserved</div>
+            <div class="footer-legal-block">
+                <a href="pageEditorSithumi.html" class="footer-legal-link">Editor Page</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
