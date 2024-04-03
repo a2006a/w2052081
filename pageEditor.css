@@ -29,6 +29,13 @@ h4{
     color: #000000;
 }
 
+.pgEditor-image{
+  margin: 50px;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
 .logo-holder {
     font-family: Arial, sans-serif;
     font-size: 30px; /* Adjust the size as needed */
